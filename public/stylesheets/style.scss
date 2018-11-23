@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  font: 1.5em;
+  font-family: 'Abel', sans-serif;
+}
+// "Serif", Helvetica, Arial, sans-serif
+
+#map {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 45px);
+  zborder: 1px solid red;
+  top: 6%;
+}
+
+nav {
+  // display: absolute;
+  // zposition: fixed;
+  // width: 100%;
+  // height: 60px;
+  // border-bottom: 1px solid rgb(218, 216, 216);
+  // background-color: rgb(255, 255, 255);
+  // display: flex;
+  // justify-content: space-between; }
+  // nav p {
+  //   margin: 0 20px;
+  }
+
+#list {
+  position: absolute;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 1em;
+  height: 80vh;
+  box-shadow: 5px 5px #cecece;
+  width: 30%;
+  z-index: 5;
+  top: 10%;
+  right:5%;
+  padding: 10px;
+  overflow: auto;
+}
+
+#rest-list {
+  background-color: red;
+}
+
+#rest-add-form {
+  height: calc(100vh - 40px);
+  background-image: url('../images/fruits.jpg');
+  background-size: 100%;
+  width: 100%;
+}
+
+#rest-add-form h1 {
+  font-size: 2.3em;
+}
+
+.form-container {
+  border: 1px solid rgb(231, 231, 231);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1em;
+  height: 80vh;
+  box-shadow: 3px 3px #cecece;
+  margin-left: 20px;
+} 
+
+
+.restForm {
+  width: 95%;
+  padding: 10px 40px;
+  height: 70vh;
+}
+
+.indexPage {
+  width: 45%;
+  height: 60vh;
+  // border: 1px solid rgb(153, 153, 153);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.1em;
+}
+
+.indexPage h1 {
+  font-size: 4.1em;
+}
+
+.indexPage a {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.indexBack {
+  width: 100%;
+  background-image: url('../images/vegetables.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 40px);
+}
+
+.btn-primary {
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.btn-danger {
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.btn-success {
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.initialImg {
+  width: 40%;
+  height: 60%;
+}
+
+.initialPageInfo {
+  
+}
+
+.card-text {
+  font-size: 1.6em;
+
+}
+
+@media (max-width: 380px) {
+  .card-text {
+    font-size: 1.0em;
+  }
+}
+
+$font-family-sans-serif:
+  // Safari for OS X and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for OS X (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+  .input {
+    width: 600px;
+    height: 25px;
+    border-radius: 1em;
+    border: 1px solid rgb(216, 216, 216);
+  }
